@@ -1,104 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>REC 18</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <style>
-          #select1 {margin-right : 20px;}
-          header {margin : 50px;}
-        </style>
-    </head>
-    <body class="container">
-      <header class="header container text-center"><h1>NONOCHAN KAWAII</h1></header>
-      <div id="main_contents">
-        <div id="song1">
-          <img src="./img/wog.jpg" width="100" height="100" alt="Wings of Glory" class="float-right">
-            <p><h3>Wings of Glory</h3></p>
-            <p>ΩDimension Phase 4</p>
-            <p>속성 : 지력, 트릴, 노브발광, 노브견제, 손배치</p>
-            <p>체인수 : 2293 , BPM : 225</p>
-        </div>
-        <hr>
-        <div id="song2">
-          <img src="./img/br.jpg" alt="Boss Rush" width="100" height="100" class="float-right">
-          <p><h3>Boss Rush</h3></p>
-          <p>PCB 해금</p>
-          <p>속성 : 이지선다, 발광, 원핸드</p>
-          <p>체인수 : 2473 , BPM : 190 </p>
-        </div>
-        <hr>
-        <div id="song3">
-          <img src="./img/legend.jpg" alt="LegenD." width="100" height="100" class="float-right">
-          <p><h3>LegenD.</h3></p>
-          <p>다단계 해금(Invitation from Mr.C -> 2 MINUTES FIGHTERS -> LegenD.)</p>
-          <p>속성 : 출장, 지력, 원핸드</p>
-          <p>체인수 : 2231 , BPM : 205-206</p>
-        </div>
-        <hr>
-        <div id="song4">
-          <img src="./img/tmb.jpg" alt="Touch My Body" width="100" height="100" class="float-right">
-          <p><h3>Touch My Body</h3></p>
-          <p>PCB 해금</p>
-          <p>속성 : 지력, 원핸드, 엇박</p>
-          <p>체인수 : 1732 , BPM : 150</p>
-        </div>
-        <hr>
-        <div id="song5">
-          <img src="./img/hsy.jpg" alt="光射す澪のユズリハ" width="100" height="100" class="float-right">
-          <p><h3>光射す澪のユズリハ</h3></p>
-          <p>ΩDimension Phase 5</p>
-          <p>속성 : 노브견제, 지력</p>
-          <p>체인수 : 1878, BPM : 190</p>
-        </div>
-        <hr>
-        <div id="song6">
-          <img src="./img/dopamin.jpg" alt="ドーパミン" width="100" height="100" class="float-right">
-          <p><h3>ドーパミン</h3></p>
-          <p>PCB 해금</p>
-          <p>속성 : 폭타, 지력</p>
-          <p>체인수 : 2022, BPM : 200</p>
-        </div>
-        <hr>
-        <div id="song7">
-          <img src="./img/tt.jpg" alt="tricky trick" width="100" height="100" class="float-right">
-          <p><h3>tricky trick</h3></p>
-          <p>PCB 해금</p>
-          <p>속성 : 지력, 팔교차, 노브견제</p>
-          <p>체인수 : 2419, BPM : 165</p>
-        </div>
-        <hr>
-        <div id="song8">
-          <img src="./img/pt.jpg" alt="PARTY TIME!" width="100" height="100" class="float-right">
-          <p><h3>PARTY TIME!</h3></p>
-          <p>PCB 해금</p>
-          <p>속성 : 겹타, 출장, <strong>개인차</strong></p>
-          <p>체인수 1786: , BPM : 190</p>
-        </div>
-        <hr>
-        <div id="song9">
-          <img src="./img/ovfl.jpg" alt="ΩVERFLOW" width="100" height="100" class="float-right">
-          <p><h3>ΩVERFLOW</h3></p>
-          <p>ΩDimension Phase 7</p>
-          <p>속성 : 원핸드, 노브견제</p>
-          <p>체인수 : 2302, BPM : 175</p>
-        </div>
-        <hr>
-        <div id="song10">
-          <img src="./img/echi.jpg" alt="ECHIDNA" width="100" height="100" class="float-right">
-          <p><h3>ECHIDNA</h3></p>
-          <p>PCB 해금</p>
-          <p>속성 : 폭타, 빅장, 24비트</p>
-          <p>체인수 : 1853, BPM : 146</p>
-        </div>
-      </div>
-      <hr>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>NONOCHAN</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <style>
+
+		header {margin : 50px;}
 
 
-      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    </body>
+  </style>
+</head>
+<body  class = "container ">
+  <header class="header container text-center"><h1>NONOCHAN KAWAII</h1></header>
+
+	<div class="row">
+  <div class="col-3">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="v-pills-sogae-tab" data-toggle="pill" href="#v-pills-sogae" role="tab" aria-controls="v-pills-sogae" aria-selected="true">소개</a>
+      <a class="nav-link" id="v-pills-OZ-tab" data-toggle="pill" href="#v-pills-OZ" role="tab" aria-controls="v-pills-OZ" aria-selected="false">Team.OZ</a>
+      <a class="nav-link" id="v-pills-recommend-tab" data-toggle="pill" href="#v-pills-recommend" role="tab" aria-controls="v-pills-recommend" aria-selected="false">곡 추천</a>
+      <!-- <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a> -->
+    </div>
+  </div>
+  <div class="col-9">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-sogae" role="tabpanel" aria-labelledby="v-pills-sogae-tab">
+				<p>軍人 2019.05.27~2020.12.25</p>
+				<p>Contact : open.kakao.com/me/OZNONO</p>
+				<p>twitter : @ji112</p>
+				<p>사볼 랜덤 선곡 기능을 찾으신 분은 좌측 메뉴로...</p>
+			</div>
+      <div class="tab-pane fade" id="v-pills-OZ" role="tabpanel" aria-labelledby="v-pills-OZ-tab">
+				<p>since 2018.08.05~</p>
+				<p>군인이 늘어나고 있습니다.</p>
+
+			</div>
+      <div class="tab-pane fade" id="v-pills-recommend" role="tabpanel" aria-labelledby="v-pills-recommend-tab">
+				<p>곡 선택장애가 왔거나 마지막 코인 고렙하고싶을때 등등 눌러주세욤</p>
+			<a href="./recommend20.html" class="btn btn-default border">20레벨 무작위 곡 추천</a><br><br>
+			<a href="./recommend19.html" class="btn btn-secondary">19레벨 무작위 곡 추천</a><br><br>
+			<a href="./recommend18.html" class="btn btn-default border">18레벨 무작위 곡 추천</a>
+			<a href="./rec18.html" class="btn btn-default border">엄선된 18레벨 곡 추천</a><br><br>
+			<a href="./recommend17.html" class="btn btn-secondary border">17레벨 무작위 곡 추천</a><br><br>
+			<a href="./recommend1718.html" class="btn btn-default border">17~18레벨 무작위 곡 추천</a><br><br>
+
+
+			</div>
+      <!-- <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div> -->
+    </div>
+  </div>
+</div>
+  <!-- 이하 BOOTSRTAP 8242336038-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
 </html>
