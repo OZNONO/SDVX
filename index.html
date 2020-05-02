@@ -1,68 +1,40 @@
-<!-- prac -->
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
-  <title>design prototype</title>
+  <title>SDVX NONO</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
   <style>
-
 		header {margin : 50px;}
     nav {margin-top : 30px; margin-bottom : 30px;}
-
+    nav li a{color : black;}
   </style>
 </head>
 
 <body class="container">
-  <header class="header text-center"><h1>연습용글을적어둔다</h1></header>
+  <header class="header text-center"><h1 onclick="location.href='http://oznono.com/sdvx';">NONO SDVX</h1></header>
 
-  <nav>
-    <ul class="nav nav-pills nav-fill">
-        <li class="nav-item">
-          <a class="nav-link"  href="./index.html">111</a>
+  <nav class="container-fluid">
+    <ul class="nav nav-pills nav-fill row">
+        <li class="nav-item col-sm-4">
+          <a class="nav-link" onclick="loadran()">랜덤으로 곡 추천</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" id="nav2" onclick="loadd()">22</a>
+        <li class="nav-item col-sm-4">
+          <a class="nav-link" onclick="loadrec()">실력향상을 위한 곡 추천</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="##">333</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./4.html">4444</a>
+        <li class="nav-item col-sm-4">
+          <a class="nav-link" onclick="loadmemo()">메모</a>
         </li>
 
     </ul>
   </nav>
 <div id="bonmoon">
-  <p>대문이다</p>
-<a href="./recommend20.html" class="btn btn-default border">20레벨 무작위 곡 추천</a><br><br>
-<a href="./recommend19.html" class="btn btn-secondary">19레벨 무작위 곡 추천</a><br><br>
-<a href="./recommend18.html" class="btn btn-default border">18레벨 무작위 곡 추천</a><br><br>
-<a href="./recommend17.html" class="btn btn-secondary border">17레벨 무작위 곡 추천</a><br><br>
-<hr>
-<a href="./recommend1718.html" class="btn btn-default border">17~18레벨 무작위 곡 추천</a><br><br>
-
+  <p>대문이다. 사볼허싈?</p>
 </div>
 
-
-<script>
-  jQuery(".nav-link").hover( function () { jQuery(this).addClass("active"); }, function () { jQuery(this).removeClass("active"); } );
- function loadd() {
-   $("#bonmoon").empty();
-   bonmoon.innerHTML = "<p>대문이 아니다</p>\
-   <a href=\"./recommend20.html\" class=\"btn btn-default border\">20레벨 무작위 곡 추천</a><br><br>\
-   <a href=\"./recommend19.html\" class=\"btn btn-secondary\">19레벨 무작위 곡 추천</a><br><br>\
-   <a href=\"./recommend18.html\" class=\"btn btn-default border\">18레벨 무작위 곡 추천</a><br><br>\
-   <a href=\"./recommend17.html\" class=\"btn btn-secondary border\">17레벨 무작위 곡 추천</a><br><br>\
-   <hr>\
-   <a href=\"./recommend1718.html\" class=\"btn btn-default border\">17~18레벨 무작위 곡 추천</a><br><br>"
-
-
-
-};
-</script>
+<script src="./index.js"></script>
 
   <!-- 이하 BOOTSRTAP 8242336038-->
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
