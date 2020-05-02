@@ -10,6 +10,7 @@
   <style>
 
 		header {margin : 50px;}
+    nav {margin-top : 30px; margin-bottom : 30px;}
 
   </style>
 </head>
@@ -20,43 +21,47 @@
   <nav>
     <ul class="nav nav-pills nav-fill">
         <li class="nav-item">
-          <a class="nav-link"  href="http://oznono.com">111</a>
+          <a class="nav-link"  href="./index.html">111</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="2.html">22</a>
+          <a class="nav-link" href="#" id="nav2" onclick="loadd()">22</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="3.html">333</a>
+          <a class="nav-link" href="##">333</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="4.html">4444</a>
+          <a class="nav-link" href="./4.html">4444</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="5.html">55555</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">index</a>
-        </li>
+
     </ul>
   </nav>
-<div>본문임</div>
-<div id="header"></div>
+<div id="bonmoon">
+  <p>대문이다</p>
+<a href="./recommend20.html" class="btn btn-default border">20레벨 무작위 곡 추천</a><br><br>
+<a href="./recommend19.html" class="btn btn-secondary">19레벨 무작위 곡 추천</a><br><br>
+<a href="./recommend18.html" class="btn btn-default border">18레벨 무작위 곡 추천</a><br><br>
+<a href="./recommend17.html" class="btn btn-secondary border">17레벨 무작위 곡 추천</a><br><br>
+<hr>
+<a href="./recommend1718.html" class="btn btn-default border">17~18레벨 무작위 곡 추천</a><br><br>
 
-<script type="text/javascript">
-  
-      jQuery(document).ready(function(){
-         jQuery("#header").load("header.html")
-        /* id 지정을 통해서도 가능합니다.
-         $("#header").load("header.html #navbar")
-         */
-      });
-</script>
-
+</div>
 
 
 <script>
   jQuery(".nav-link").hover( function () { jQuery(this).addClass("active"); }, function () { jQuery(this).removeClass("active"); } );
+ function loadd() {
+   $("#bonmoon").empty();
+   bonmoon.innerHTML = "<p>대문이 아니다</p>\
+   <a href=\"./recommend20.html\" class=\"btn btn-default border\">20레벨 무작위 곡 추천</a><br><br>\
+   <a href=\"./recommend19.html\" class=\"btn btn-secondary\">19레벨 무작위 곡 추천</a><br><br>\
+   <a href=\"./recommend18.html\" class=\"btn btn-default border\">18레벨 무작위 곡 추천</a><br><br>\
+   <a href=\"./recommend17.html\" class=\"btn btn-secondary border\">17레벨 무작위 곡 추천</a><br><br>\
+   <hr>\
+   <a href=\"./recommend1718.html\" class=\"btn btn-default border\">17~18레벨 무작위 곡 추천</a><br><br>"
 
+
+
+};
 </script>
 
   <!-- 이하 BOOTSRTAP 8242336038-->
