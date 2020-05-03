@@ -1,5 +1,4 @@
 jQuery(".nav-link").hover( function () { jQuery(this).addClass("active"); }, function () { jQuery(this).removeClass("active"); } );
-
 function loadran() {
  $("#bonmoon").empty();
  bonmoon.innerHTML = "<p>대문이 아니다</p>\
