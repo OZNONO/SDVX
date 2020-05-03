@@ -20,5 +20,5 @@ function loadrec() {
 
 function loadmemo() {
    $("#bonmoon").empty();
-   bonmoon.innerHTML = "<p>asdf</p>"
+   bonmoon.innerHTML = "<p>메모입니다.</p>"
 }
